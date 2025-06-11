@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prashant Dhole - Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="new.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <a href="#home" class="logo">
+            <i class="fas fa-code logo-icon"></i>
+            <span>Prashant Dhole</span>
+        </a>
+        
+      <!---->  <div class="nav-links">
+            <a href="#hero" class="nav-link active">Home</a>
+            <a href="#projects" class="nav-link">Projects</a>
+            <a href="#education" class="nav-link">Education</a>
+            <a href="#skills" class="nav-link">Skills</a>
+            <a href="#contact" class="nav-link">Contact</a>
+        </div>
+    
+        <button class="mobile-menu-btn" id="mobileMenuBtn">
+            <i class="fas fa-bars"></i>
+        </button>
+        <!--mobile View -->
+        <div class="mobile-menu" id="mobileMenu">
+            <button class="close-menu-btn" id="closeMenuBtn">
+                <i class="fas fa-times"></i>
+            </button>
+            <div class="mobile-nav-links">
+                <a href="#hero" class="mobile-nav-link active">Home</a>
+                <a href="#projects" class="mobile-nav-link">Project</a>
+                <a href="#education" class="mobile-nav-link">Education</a>
+                <a href="#skills" class="mobile-nav-link">Skill</a>
+                <a href="#contact" class="mobile-nav-link">Contact</a> 
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="hero">
+        <canvas id="particles"></canvas>
+        <div class="hero-content">
+            <h1 id="typewriter"></h1>
+            <div class="avatar" id="floating-avatar"></div>
+            <div class="scroll-down">↓ Scroll Down ↓</div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2 class="section-title">Featured Projects</h2>
+        <div class="project-grid" id="projectContainer"></div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education">
+        <h2 class="section-title">Education Journey</h2>
+        <div class="timeline-container">
+            <div class="timeline-line"></div>
+            <div id="timelineItems"></div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2 class="section-title">Skills & Expertise</h2>
+        <div class="skills-container" id="skillsContainer"></div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2 class="section-title">Contact Me</h2>
+        <div class="contact-container">
+            <!-- Contact Info -->
+            <div class="contact-info">
+                <h3 class="info-title">Let's Connect</h3>
+                <p class="info-text">I'm always open to discussing new projects, creative ideas or opportunities.</p>
+                <div class="contact-methods">
+                    <div class="contact-method email">
+                        <div class="method-icon"><i class="fas fa-envelope"></i></div>
+                        <div class="method-content">
+                            <h4>Email</h4>
+                            <p>pdhole261@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-method phone">
+                        <div class="method-icon"><i class="fas fa-phone"></i></div>
+                        <div class="method-content">
+                            <h4>Phone</h4>
+                            <p>+91 9096816086</p>
+                        </div>
+                    </div>
+                    <div class="contact-method location">
+                        <div class="method-icon"><i class="fas fa-map-marker-alt"></i></div>
+                        <div class="method-content">
+                            <h4>Location</h4>
+                            <p>Pune, Maharashtra</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Contact Form -->
+               
+           
+  <form class="contact-form" action="https://api.web3forms.com/submit" method="POST">
+
+    <input type="hidden" name="access_key" value="cd37e952-8724-4296-b4c6-af415b3bcb16" />
+    <input type="hidden" name="subject" value="New Contact Form Submission from  Your Portfolio" />
+    <input type="hidden" name="from_name" value="From Portfolio" />
+    <!-- More custom ization options available in the docs: https://docs.web3forms.com -->
+
+    <div class="form-group-container">
+      <div class="form-group">
+        
+        <input id="name" name="name" class="form-input" placeholder=" " type="text" />
+        <label for="name" class="form-label">Name</label>
+      </div>
+      <div class="form-group">
+      
+        <input id="email" name="email" class="form-input" placeholder=" " type="email" />
+          <label for="email" class="form-label">Email</label>
+      </div>
+      <div class="form-group">
+       
+        <input id="phone" name="phone" class="form-input" placeholder=" " type="text" />
+         <label for="phone" class="form-label">Phone</label>
+      </div>
+      <div class="form-group">
+        
+        <textarea class="form-textarea" id="message" name="message" placeholder=" "></textarea>
+        <label for="message" class="form-label">Message</label>
+      </div>
+    </div>
+    <button class="form-submit" type="submit">Send Message</button>
+  </form>
+
+</div> 
+        <!-- Optional Social Links -->
+        <div class="social-links">
+            <a href="https://github.com//Prashant-Dhole2" class="social-link github"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/prashant-dhole-0343b8267/" class="social-link linkedin"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#" class="social-link twitter"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.instagram.com/prashant_dhole._" class="social-link instagram"><i class="fab fa-instagram"></i></a>
+        </div>
+        
+            <div class="resume">
+    <a href="https://drive.google.com/file/d/1n2UKGGCuaDUnGqOGVHSQ7-ITKjSukfgP/view"> Downlode Resume</a>
+</div>
+
+    </section>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollTrigger.min.js"></script>
+    <script src="script.js"></script>
+     
+</body>
+</html>
