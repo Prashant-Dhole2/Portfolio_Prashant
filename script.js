@@ -139,7 +139,7 @@ const techStacks = [
 
 const projectImages = [
     "images/webscrapx.png",
-    "images/backpackGo.png",
+    "images/BackpackGo.png",
     "images/Finance.png",
     "images/bento.png"
 ];
