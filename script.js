@@ -330,7 +330,7 @@ document.querySelectorAll('.project-card').forEach(card => {
     const educationData = [
         {
             year: "2022-2025",
-            degree: "Bachelor of Digree in Computer Science and Eng.",
+            degree: "Bachelor of Degree in Computer Science and Eng.",
             institution: "JD College of Engineering and Management Nagpur",
             description: "Specialized STEM program with focus on Computer science And Eng.",
             achievements: achievements[0]
