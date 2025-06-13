@@ -337,7 +337,7 @@ document.querySelectorAll('.project-card').forEach(card => {
         },
         {
             year: "2020-2022",
-            degree: "Class XII HHigh School Diploma",
+            degree: "Class XII High School Diploma",
             institution: "Indira institude of tech Vishnupuri,Nanded",
             description: "Specialized STEM program with focus on Computer  science fundamentals.",
             achievements: achievements[1]
@@ -452,7 +452,7 @@ document.querySelectorAll('.project-card').forEach(card => {
     const developmentSkills = [
         { name: "JavaScript", level: Math.floor(Math.random() * 20) + 50, icon: "fab fa-js" },
         { name: "JAVA", level: Math.floor(Math.random() * 25) + 75, icon: "fab fa-java" },
-        { name: "PHP", level: Math.floor(Math.random() * 25) + 70, icon: "fab fa-node" },
+        { name: "PHP", level: Math.floor(Math.random() * 25) + 70, icon: "fab fa-php" },
         { name: "Python", level: Math.floor(Math.random() * 30) + 65, icon: "fab fa-python" }
     ];
     
